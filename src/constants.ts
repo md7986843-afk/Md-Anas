@@ -57,42 +57,42 @@ export const PORTFOLIO = [
     title: "Luxury Travel Booking Website",
     category: "Luxury Travel / Booking",
     link: "https://www.business-class.com/",
-    image: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&q=80&w=1200&h=800",
+    image: "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fm=webp&fit=crop&q=60&w=800&h=600",
     description: "Created a premium travel booking platform with elegant UI, advanced flight search, exclusive hotel deals, and a seamless user experience tailored for luxury and business travelers."
   },
   {
     title: "E-Commerce Trust & Review Platform",
     category: "Trust & Review / Ecommerce",
     link: "https://www.trustedshops.de",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1200&h=800",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fm=webp&fit=crop&q=60&w=800&h=600",
     description: "Built a secure eCommerce trust platform featuring customer review systems, buyer protection services, trust badges, and conversion-focused modern interface design."
   },
   {
     title: "Corporate Web Design Agency Website",
     category: "Corporate / Web Agency",
     link: "https://itseeze.com/",
-    image: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&q=80&w=1200&h=800",
+    image: "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fm=webp&fit=crop&q=60&w=800&h=600",
     description: "Designed a clean and professional agency website focused on business growth, responsive layouts, SEO-friendly structure, fast loading performance, and strong brand presentation."
   },
   {
     title: "Eco-Friendly Cloud Hosting Platform",
     category: "Cloud Hosting / WP",
     link: "https://krystal.io/",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200&h=800",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fm=webp&fit=crop&q=60&w=800&h=600",
     description: "Built a high-performance web hosting platform with premium cloud hosting services, managed WordPress solutions, secure server infrastructure, and a modern sustainability-focused brand experience."
   },
   {
     title: "AI-Powered Fiction Publishing Platform",
     category: "EdTech / AI Publishing",
     link: "https://www.fictionprofitsacademy.com/",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200&h=800",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fm=webp&fit=crop&q=60&w=800&h=600",
     description: "Developed a modern online learning and publishing platform focused on AI-powered fiction book creation, mentorship programs, and digital publishing strategies."
   },
   {
     title: "Kids Audio Story & Learning Platform",
     category: "Kids / Education",
     link: "https://lunii.com/fr-fr",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=1200&h=800",
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fm=webp&fit=crop&q=60&w=800&h=600",
     description: "Developed an interactive storytelling website for children with playful design elements, product showcase sections, educational content layouts, and a colorful mobile-friendly experience."
   }
 ];
@@ -111,19 +111,19 @@ export const TESTIMONIALS = [
   {
     name: "John Doe",
     position: "CEO, TechSoft",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fm=webp&fit=crop&q=60&w=200&h=200",
     review: "Md Anas is a great developer! He delivered our website on time with excellent quality. Highly recommended!"
   },
   {
     name: "Sarah Jenkins",
     position: "Marketing Director, CreativeFlow",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fm=webp&fit=crop&q=60&w=200&h=200",
     review: "Working with Anas was a breeze. He took our vision and turned it into a high-performing WordPress store."
   },
   {
     name: "Robert Smith",
     position: "Founder, Peak Performance",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fm=webp&fit=crop&q=60&w=200&h=200",
     review: "The speed optimization Anas did on our site was incredible. Our conversion rate increased by 25%."
   }
 ];
@@ -134,21 +134,21 @@ export const BLOGS = [
     category: "WordPress",
     date: "May 20, 2024",
     readTime: "5 min read",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fm=webp&fit=crop&q=60&w=800&h=600"
   },
   {
     title: "How to Speed Up WordPress Website",
     category: "Tutorial",
     date: "May 10, 2024",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fm=webp&fit=crop&q=60&w=800&h=600"
   },
   {
     title: "WordPress SEO Tips to Rank Higher on Google",
     category: "SEO",
     date: "Apr 28, 2024",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1571721795195-a2ca2d3370a9?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1571721795195-a2ca2d3370a9?auto=format&fm=webp&fit=crop&q=60&w=800&h=600"
   }
 ];
 

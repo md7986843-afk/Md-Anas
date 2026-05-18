@@ -37,33 +37,33 @@ export default function App() {
           <About />
         </section>
         
-        <section id="services">
+        <section id="services" className="content-auto">
           <Services />
         </section>
         
-        <section id="portfolio">
+        <section id="portfolio" className="content-auto">
           <Portfolio />
         </section>
         
-        <section id="skills">
+        <section id="skills" className="content-auto">
           <Skills />
         </section>
 
-        <section id="process">
+        <section id="process" className="content-auto">
           <Process />
         </section>
         
-        <section id="testimonials">
+        <section id="testimonials" className="content-auto">
           <Testimonials />
         </section>
 
-        <section id="blog">
+        <section id="blog" className="content-auto">
           <Blogs />
         </section>
 
         <CTA />
         
-        <section id="contact">
+        <section id="contact" className="content-auto">
           <Contact />
         </section>
       </main>
