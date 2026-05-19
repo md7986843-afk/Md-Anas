@@ -159,3 +159,53 @@ export const PROCESS = [
   { step: "04", title: "Development", description: "Building the site with clean and optimized code." },
   { step: "05", title: "Launch", description: "Final testing and deploying your site to the world." }
 ];
+
+export const PRICING_PLANS = [
+  {
+    name: "Basic",
+    price: "99",
+    description: "Perfect for personal blogs or simple landing pages.",
+    features: [
+      "1-3 Pages Design",
+      "Mobile Responsive",
+      "Contact Form Integration",
+      "Social Media Links",
+      "Basic SEO Setup",
+      "3 Days Delivery"
+    ],
+    isPopular: false,
+    buttonText: "Start with Basic"
+  },
+  {
+    name: "Standard",
+    price: "199",
+    description: "Ideal for small businesses needing a professional presence.",
+    features: [
+      "Up to 7 Pages Design",
+      "Premium Theme Customization",
+      "Speed Optimization",
+      "Elementor Pro Setup",
+      "Blog Section Setup",
+      "7 Days Delivery",
+      "1 Month Support"
+    ],
+    isPopular: true,
+    buttonText: "Go Standard"
+  },
+  {
+    name: "Premium",
+    price: "399",
+    description: "Advanced solutions for eCommerce and complex sites.",
+    features: [
+      "Unlimited Pages",
+      "Full WooCommerce Setup",
+      "Payment Gateway Integration",
+      "Advanced SEO & Analytics",
+      "Security Hardening",
+      "14 Days Delivery",
+      "3 Months Support"
+    ],
+    isPopular: false,
+    buttonText: "Get Premium"
+  }
+];

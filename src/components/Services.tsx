@@ -28,7 +28,7 @@ export default function Services() {
                 transition={{ delay: i * 0.1 }}
                 whileHover={{ y: -10 }}
                 className={cn(
-                  "glass-card p-10 group relative transition-all duration-300",
+                  "glass-card p-6 sm:p-10 group relative transition-all duration-300",
                   "hover:bg-brand-accent/[0.05] hover:border-brand-accent/30"
                 )}
               >

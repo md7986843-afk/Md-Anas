@@ -13,7 +13,7 @@ export default function Portfolio() {
           description="A selection of high-end WordPress websites built for various industries."
         />
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
           {PORTFOLIO.map((project, i) => (
             <motion.div
               key={i}
@@ -21,7 +21,7 @@ export default function Portfolio() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="group relative h-[450px] overflow-hidden rounded-3xl border border-white/10"
+              className="group relative h-[400px] md:h-[450px] lg:h-[500px] overflow-hidden rounded-[2rem] border border-white/10 shadow-xl"
             >
               {/* Link Wrapper for the whole card area */}
               <a 

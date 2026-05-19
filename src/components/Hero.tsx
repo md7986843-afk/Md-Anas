@@ -29,11 +29,11 @@ export default function Hero() {
               <span className="text-sm font-semibold tracking-wide uppercase">Hello, I’m</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black leading-tight mb-4 tracking-tighter">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-black leading-tight mb-4 tracking-tighter">
               {PERSONAL_INFO.name}
             </h1>
             
-            <h2 className="text-2xl md:text-4xl font-display font-bold mb-8 neon-text uppercase tracking-tight">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-display font-bold mb-8 neon-text uppercase tracking-tight">
               {PERSONAL_INFO.tagline}
             </h2>
             
@@ -79,7 +79,7 @@ export default function Hero() {
             transition={{ duration: 1 }}
             className="relative flex justify-center"
           >
-            {/* Image Container with Glows */}
+              {/* Image Container with Glows */}
             <div className="relative w-full max-w-[500px] aspect-square rounded-full">
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-accent to-brand-glow rounded-full blur-[40px] opacity-20 animate-pulse-slow" />
               <div className="absolute -inset-4 bg-gradient-to-tr from-brand-accent/30 to-brand-glow/30 rounded-full -z-10 animate-spin-slow duration-[10s]" />
@@ -97,40 +97,40 @@ export default function Hero() {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-                className="absolute -top-4 -right-4 glass shadow-xl p-4 rounded-2xl flex items-center gap-3 border-white/20"
+                className="absolute -top-4 -right-2 sm:-right-4 glass shadow-xl p-3 sm:p-4 rounded-xl sm:rounded-2xl flex items-center gap-2 sm:gap-3 border-white/20"
               >
-                <div className="w-10 h-10 rounded-full rotating-border text-brand-accent">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full rotating-border text-brand-accent">
                   <div className="rotating-border-inner rounded-full bg-brand-accent/20">
-                    <Briefcase className="w-5 h-5" />
+                    <Briefcase className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
                 </div>
                 <div>
-                  <div className="text-lg font-bold">2+ Years</div>
-                  <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold">Experience</div>
+                  <div className="text-sm sm:text-lg font-bold">2+ Years</div>
+                  <div className="text-[8px] sm:text-[10px] uppercase tracking-wider text-gray-500 font-bold">Experience</div>
                 </div>
               </motion.div>
 
               <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-                className="absolute bottom-1/4 -left-8 glass shadow-xl p-4 rounded-2xl flex items-center gap-3 border-white/20"
+                className="absolute bottom-1/4 -left-4 sm:-left-8 glass shadow-xl p-3 sm:p-4 rounded-xl sm:rounded-2xl flex items-center gap-2 sm:gap-3 border-white/20"
               >
-                <div className="text-2xl font-black text-brand-accent">50+</div>
+                <div className="text-xl sm:text-2xl font-black text-brand-accent">50+</div>
                 <div>
-                  <div className="text-sm font-bold">Projects</div>
-                  <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold">Completed</div>
+                  <div className="text-xs sm:text-sm font-bold">Projects</div>
+                  <div className="text-[8px] sm:text-[10px] uppercase tracking-wider text-gray-500 font-bold">Completed</div>
                 </div>
               </motion.div>
 
               <motion.div
                 animate={{ scale: [1, 1.05, 1] }}
                 transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-                className="absolute -bottom-2 right-4 glass shadow-xl p-4 rounded-2xl flex items-center gap-3 border-white/20"
+                className="absolute -bottom-2 right-2 sm:right-4 glass shadow-xl p-3 sm:p-4 rounded-xl sm:rounded-2xl flex items-center gap-2 sm:gap-3 border-white/20"
               >
-                <div className="text-2xl font-black text-green-400">100%</div>
+                <div className="text-xl sm:text-2xl font-black text-green-400">100%</div>
                 <div>
-                  <div className="text-sm font-bold">Satisfaction</div>
-                  <div className="text-[10px] uppercase tracking-wider text-gray-500 font-bold">Guarantee</div>
+                  <div className="text-xs sm:text-sm font-bold">Satisfaction</div>
+                  <div className="text-[8px] sm:text-[10px] uppercase tracking-wider text-gray-500 font-bold">Guarantee</div>
                 </div>
               </motion.div>
             </div>

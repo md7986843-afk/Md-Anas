@@ -10,12 +10,14 @@ import About from '@/src/components/About';
 import Services from '@/src/components/Services';
 import Portfolio from '@/src/components/Portfolio';
 import Skills from '@/src/components/Skills';
+import Pricing from '@/src/components/Pricing';
 import Process from '@/src/components/Process';
 import Testimonials from '@/src/components/Testimonials';
 import Blogs from '@/src/components/Blogs';
 import CTA from '@/src/components/CTA';
 import Contact from '@/src/components/Contact';
 import Footer from '@/src/components/Footer';
+import WhatsAppButton from '@/src/components/WhatsAppButton';
 
 export default function App() {
   return (
@@ -27,6 +29,7 @@ export default function App() {
       </div>
 
       <Navbar />
+      <WhatsAppButton />
       
       <main>
         <section id="home">
@@ -47,6 +50,10 @@ export default function App() {
         
         <section id="skills" className="content-auto">
           <Skills />
+        </section>
+
+        <section id="pricing" className="content-auto">
+          <Pricing />
         </section>
 
         <section id="process" className="content-auto">

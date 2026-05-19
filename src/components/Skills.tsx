@@ -14,10 +14,10 @@ export default function Skills() {
   return (
     <div className="section-padding">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           
           {/* Skills Bars */}
-          <div>
+          <div className="order-2 md:order-1">
             <SectionHeading 
               subtitle="My Skills" 
               title="Professional Expertise"

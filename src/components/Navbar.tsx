@@ -10,10 +10,13 @@ const NAV_LINKS = [
   { name: 'Services', href: '#services' },
   { name: 'Portfolio', href: '#portfolio' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Pricing', href: '#pricing' },
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'Blog', href: '#blog' },
   { name: 'Contact', href: '#contact' },
 ];
+
+import Logo from './Logo';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,24 +39,17 @@ export default function Navbar() {
     )}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-lg rotating-border group-hover:scale-110 transition-transform shadow-lg shadow-brand-accent/20">
-            <div className="rotating-border-inner rounded-lg bg-gradient-to-br from-brand-accent to-brand-glow text-white font-display font-bold">
-              {PERSONAL_INFO.brand}
-            </div>
-          </div>
-          <span className="font-display font-bold text-xl tracking-tight hidden sm:block">
-            {PERSONAL_INFO.name}
-          </span>
+        <a href="#home" className="group">
+          <Logo className="h-10 sm:h-12" />
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-4 xl:gap-8">
           {NAV_LINKS.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-gray-400 hover:text-white transition-colors relative group"
+              className="text-[13px] xl:text-sm font-medium text-gray-400 hover:text-white transition-colors relative group whitespace-nowrap"
             >
               {link.name}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-accent transition-all duration-300 group-hover:w-full" />
@@ -91,7 +87,7 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="lg:hidden bg-brand-bg border-b border-white/10 overflow-hidden"
           >
-            <div className="px-6 py-8 flex flex-col gap-6">
+            <div className="px-6 py-8 flex flex-col gap-6 max-h-[80vh] overflow-y-auto">
               {NAV_LINKS.map((link) => (
                 <a
                   key={link.name}
