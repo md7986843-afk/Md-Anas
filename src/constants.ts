@@ -109,22 +109,28 @@ export const SKILLS = [
 
 export const TESTIMONIALS = [
   {
-    name: "John Doe",
-    position: "CEO, TechSoft",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fm=webp&fit=crop&q=60&w=200&h=200",
-    review: "Md Anas is a great developer! He delivered our website on time with excellent quality. Highly recommended!"
+    name: "Nahiyan",
+    position: "Founder, NexaTech Solutions",
+    image: "https://dev-newsiteeeee.pantheonsite.io/wp-content/uploads/2026/05/Screenshot_1-2.png",
+    review: "Md Anas is an outstanding developer! He built our entire corporate website with Elementor Pro. The attention to detail and layout animations are absolutely top-notch."
   },
   {
-    name: "Sarah Jenkins",
-    position: "Marketing Director, CreativeFlow",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fm=webp&fit=crop&q=60&w=200&h=200",
-    review: "Working with Anas was a breeze. He took our vision and turned it into a high-performing WordPress store."
+    name: "Ratul Mia",
+    position: "Co-Founder, Dhaka Mart",
+    image: "https://dev-newsiteeeee.pantheonsite.io/wp-content/uploads/2026/05/Screenshot_2-1.png",
+    review: "Working with Anas was an amazing experience. He built a high-performing, fully secure WooCommerce store for us. Our loading speed is super fast now!"
   },
   {
-    name: "Robert Smith",
-    position: "Founder, Peak Performance",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fm=webp&fit=crop&q=60&w=200&h=200",
-    review: "The speed optimization Anas did on our site was incredible. Our conversion rate increased by 25%."
+    name: "Sahrinaai",
+    position: "Marketing Director, Creative Wave",
+    image: "https://dev-newsiteeeee.pantheonsite.io/wp-content/uploads/2026/05/Screenshot_3-1.png",
+    review: "Anas completely transformed our premium landing pages. He is extremely reliable, communicates perfectly, and delivers pure quality every single time."
+  },
+  {
+    name: "Ab Siddik",
+    position: "CEO, Siddik Group Ltd",
+    image: "https://dev-newsiteeeee.pantheonsite.io/wp-content/uploads/2026/05/Screenshot_4-1.png",
+    review: "The technical skills Anas has in WordPress custom templates are impressive. He solved complex design bugs and optimized our site's SEO perfectly."
   }
 ];
 

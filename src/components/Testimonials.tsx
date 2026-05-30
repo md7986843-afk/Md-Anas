@@ -38,6 +38,7 @@ export default function Testimonials() {
                 <img 
                   src={TESTIMONIALS[current].image} 
                   alt={TESTIMONIALS[current].name}
+                  referrerPolicy="no-referrer"
                   className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover relative border-4 border-white/10"
                 />
               </div>
